@@ -1,7 +1,7 @@
 ---
 title: Python Fundamentals
 teaching: 20
-exercises: 10
+exercises: 0
 questions:
 - "What basic data types can I work with in Python?"
 - "How can I create a new variable in Python?"
@@ -179,49 +179,5 @@ stuck on it](../fig/python-sticky-note-variables-03.svg)
 > Since `weight_lb` doesn't "remember" where its value comes from,
 > it is not updated when we change `weight_kg`.
 {: .callout}
-
-
-> ## Check Your Understanding
->
-> What values do the variables `mass` and `age` have after each of the following statements?
-> Test your answer by executing the lines.
->
-> ~~~
-> mass = 47.5
-> age = 122
-> mass = mass * 2.0
-> age = age - 20
-> ~~~
-> {: .language-python}
->
-> > ## Solution
-> > ~~~
-> > `mass` holds a value of 47.5, `age` does not exist
-> > `mass` still holds a value of 47.5, `age` holds a value of 122
-> > `mass` now has a value of 95.0, `age`'s value is still 122
-> > `mass` still has a value of 95.0, `age` now holds 102
-> > ~~~
-> > {: .output}
-> {: .solution}
-{: .challenge}
-
-> ## Sorting Out References
->
-> What does the following program print out?
->
-> ~~~
-> first, second = 'Grace', 'Hopper'
-> third, fourth = second, first
-> print(third, fourth)
-> ~~~
-> {: .language-python}
->
-> > ## Solution
-> > ~~~
-> > Hopper Grace
-> > ~~~
-> > {: .output}
-> {: .solution}
-{: .challenge}
 
 {% include links.md %}
