@@ -1,7 +1,0 @@
-name: ida-short-intro
-channels:
-  - conda-forge
-dependencies:
-  - numpy
-  - matplotlib
-  - pandas
