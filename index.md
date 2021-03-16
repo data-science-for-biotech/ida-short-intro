@@ -60,7 +60,7 @@ about programming.
 ### Getting Started
 You can click on the following button to open an interactive Python programming environment called Jupyter
 in your browser.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/data-science-for-biotech/binder/main?filepath=getting-started.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/data-science-for-biotech/binder/main?filepath=GETTING-STARTED.ipynb)
 
 Alternatively (assuming you have some time on your hand), follow the directions on the "[Setup][lesson-setup]" page to download data
 and install a Python interpreter on your computer.
